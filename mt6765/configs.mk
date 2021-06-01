@@ -7,3 +7,7 @@ $(call inherit-product, vendor/mediatek/opensource/mtk-builds.mk)
 # Power
 PRODUCT_PACKAGES += \
     power.mt6765
+
+# Thermal
+PRODUCT_PACKAGES += \
+    thermal.mt6765
