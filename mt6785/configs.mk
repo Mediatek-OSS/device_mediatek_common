@@ -8,6 +8,10 @@ $(call inherit-product, vendor/mediatek/opensource/mtk-builds.mk)
 PRODUCT_PACKAGES += \
     consumerir.mt6785
 
+# DFPS
+PRODUCT_PACKAGES += \
+    dfps.mt6785
+
 # Power
 PRODUCT_PACKAGES += \
     power.mt6785
