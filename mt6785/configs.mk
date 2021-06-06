@@ -15,6 +15,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     dfps.mt6785
 
+# Nvram
+PRODUCT_PACKAGES += \
+    libnvram_platform \
+    libnvram_platform_mtk
+
 # Power
 PRODUCT_PACKAGES += \
     power.mt6785
