@@ -9,4 +9,5 @@ PRODUCT_COPY_FILES += \
 
 # Permissions MTK
 PRODUCT_COPY_FILES += \
-    $(MTK_DEVICE_PATH)/common/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml
+    $(MTK_DEVICE_PATH)/common/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml \
+    $(MTK_DEVICE_PATH)/common/permissions/product-permissions-mediatek.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/product-permissions-mediatek.xml
