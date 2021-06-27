@@ -1,3 +1,5 @@
+MTK_TARGET_PROJECT_FOLDER := device/mediatek/common/mt6765
+
 # Call ProjectConfig For mt6765
 $(call inherit-product, device/mediatek/common/mt6765/ProjectConfig.mk)
 
