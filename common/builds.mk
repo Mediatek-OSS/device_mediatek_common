@@ -1,5 +1,9 @@
 MTK_DEVICE_PATH := device/mediatek/common
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/mediatek/opensource
+
 # Kernel Headers (MTK)
 PRODUCT_VENDOR_KERNEL_HEADERS := $(MTK_DEVICE_PATH)/common/kernel-headers
 
