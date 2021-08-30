@@ -2,6 +2,7 @@ MTK_DEVICE_PATH := device/mediatek/common
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    vendor/mediatek/ims \
     vendor/mediatek/opensource
 
 # Kernel Headers (MTK)
