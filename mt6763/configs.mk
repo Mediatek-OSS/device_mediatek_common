@@ -24,7 +24,3 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     power.mt6763
-
-# Thermal
-PRODUCT_PACKAGES += \
-    thermal.mt6763
