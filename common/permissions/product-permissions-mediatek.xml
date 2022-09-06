@@ -23,4 +23,11 @@ applications that come with the platform
         <permission name="android.permission.KEYPHRASE_ENROLLMENT_APPLICATION"/>
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
     </privapp-permissions>
+
+    <privapp-permissions package="com.magiear.handsfree.assistant">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
+    </privapp-permissions>
+
 </permissions>
